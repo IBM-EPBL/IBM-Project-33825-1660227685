@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Form for Registeration</title>
+    </head>
+    <body>
+        <h1 style = text-align:center>Registeration Form in HTML</h1>
+        <form method = "post" action="fhLink.html">
+            <table>
+                <tr>
+                    <td>
+                        Username:
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Username" name="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email ID:
+                    </td>
+                    <td>
+                        <input type="Email" placeholder = "user@email.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Contact Number:
+                    </td>
+                    <td>
+                        <input type="contact" placeholder="Enter 10-digit number">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="Submit" value="Submit">
+                        <input type="Reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
